@@ -1,2 +1,2 @@
-declare function DoSomethingCool(): void;
-export = DoSomethingCool;
+declare function exportFunc(): void;
+export = exportFunc;

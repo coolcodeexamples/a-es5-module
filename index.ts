@@ -1,6 +1,6 @@
 
-function DoSomethingCool () {
-    console.log('something cool happened in a-es5-module');
+function exportFunc() {
+    console.log('(ES5) export function');
 }
 
-export = DoSomethingCool;
+export = exportFunc;
